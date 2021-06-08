@@ -103,7 +103,7 @@ async def website(ctx):
 
 @client.command()
 async def showcommands(ctx):
-	await ctx.send("ping: Check the latency of the bot \n \n blahajlang: Convert English to Swedish \n \n blinglish: Convert Swedish to English \n \n catImage: A cute cat because why not \n \n sharkImage: Shows a random shark image \n \n 	getGifts: Gives you gift recommendations based on the specified budget \n \n website: Directs you to the best site ever!")
+	await ctx.send("ping: Check the latency of the bot \n \n blahajlang: Convert English to Swedish \n \n blinglish: Convert Swedish to English \n \n catimage: A cute cat because why not \n \n sharkimage: Shows a random shark image \n \n 	getgifts: Gives you gift recommendations based on the specified budget \n \n website: Directs you to the best site ever!")
 
 
 client.run(bot_token)
